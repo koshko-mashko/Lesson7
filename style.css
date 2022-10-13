@@ -1,0 +1,58 @@
+* {
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+h1 {
+    background-color: black;
+    color: blueviolet;
+    text-align: center;
+}
+.navbar, .navbar a {
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.navbar a {
+   padding: 10px;
+   text-align: center;
+   font-size: 18px;
+}
+.navbar a:hover {
+    background-color: black;
+}
+.about, .projects, .contacts {
+    border: 2px solid blueviolet;
+    padding: 10%;
+    margin: 1%;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    max-width: 85%;
+}
+.image {
+    flex-basis: 85%;
+}
+.textAbout {
+padding: 1%;
+
+}
+.projects li {
+padding: 5%;
+}
+.button {
+    width: 5%;
+    height: 5%;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    overflow: auto;
+}
+.button:hover {
+    background-color: blueviolet;
+}
+footer {
+    font-size: small;
+}
